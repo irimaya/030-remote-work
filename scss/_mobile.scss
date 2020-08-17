@@ -1,0 +1,33 @@
+@media only screen and (max-width: 768px) {
+  // Wrap
+  .wrap {
+    text-align: center;
+    grid-template-columns: 1fr;
+    &-header {
+      grid-template-rows: 1fr;
+      padding: 10px;
+      &-title {
+        height: 100%;
+      }
+      &-footer {
+        height: 100%;
+      }
+    } //End .wrap-header
+    &-img-home,
+    &-img-about,
+    &-img-contact {
+      background-position: center;
+      height: 200px;
+    }
+    &-content-home,
+    &-content-about,
+    &-content-contact {
+      padding: 20px;
+      width: 100%;
+      text-align: center;
+      h1 {
+        text-align: center;
+      }
+    } //End &-content-home
+  } //End #wrap
+} //End @media
